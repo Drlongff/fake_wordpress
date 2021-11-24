@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PingFang SC', 'Microsoft Yahei', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-left {
+    padding-left: 30px;
+    flex: 1;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li {
+    padding-left: 30px;
+    color: #003c56;
+    font-weight: bold;
+}
+
+.nav-right {
+    margin-right: 50px;
+}
+
+.nav-right ul {
+    float: right;
+    display: flex;
+}
+
+.nav-right ul li {
+    margin-left: 30px;
+}
+
+.nav-right ul li a {
+    font-weight: bold;
+    color: #003c56;
+}
+
+.nav-right .start-use {
+    border: 1px solid #003c56;
+}
+
+/* main */
+main {
+    padding-top: 5vh;
+}
+.page {
+    height: 100%;
+}
+
+.welcome{
+    text-align: center;
+}
+.welcome p {
+    color: #117ac9;
+    font-size: 72px;
+    font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+}
+
+.description {
+    text-align: center;
+    padding-top: 15px;
+    width: 740px;
+}
+
+.description p {
+
+    font-size: 20px;
+}
