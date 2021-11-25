@@ -46,6 +46,7 @@ nav {
 .nav-right ul {
     float: right;
     display: flex;
+    align-items: center;
 }
 
 .nav-right ul li {
@@ -57,8 +58,15 @@ nav {
     color: #003c56;
 }
 
+
 .nav-right .start-use {
-    border: 1px solid #003c56;
+    display: inline;
+    width: 115px;
+    height: 36px;
+    border: 2px solid #003c56;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
 }
 
 /* main */
@@ -67,6 +75,7 @@ main {
 }
 .page {
     height: 100%;
+    text-align: center;
 }
 
 .welcome{
@@ -79,12 +88,66 @@ main {
 }
 
 .description {
-    text-align: center;
     padding-top: 15px;
-    width: 740px;
+    
 }
 
 .description p {
-
+    margin: auto;
+    width: 740px;
     font-size: 20px;
+    color: #043959;
+    text-align: center;
+}
+
+.start {
+    margin-top: 38px;
+    text-align: center;
+}
+
+.start button {
+    width: 200px;
+    height: 50px;
+    background-color: #117ac9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.equipment {
+    margin: auto;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipment > div {
+    margin: 0 50px;
+}
+
+.more-info {
+    margin-top: 130px;
+}
+
+.more-info p {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+    color: #043959;
+}
+
+.more-info .web-link {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-info .web-link span {
+    font-size: 24px;
+    font-family: Recoleta,Georgia,"Times New Roman",Times,serif;
+    color: #043959;
 }
